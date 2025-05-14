@@ -1,0 +1,23 @@
+{
+  "name": "Random Input Filler",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Fill input fields with random user data",
+  "permissions": ["contextMenus", "scripting", "activeTab"],
+  "host_permissions": ["https://randomuser.me/"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  }
+}
