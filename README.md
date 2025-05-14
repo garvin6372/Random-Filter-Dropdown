@@ -1,4 +1,4 @@
-# 🧩 Random Input Filler — Free Form Data Generator
+# 🧩 Random Input Filler — Free Form Data Generator - Chrome Browser Extension
 
 Quickly fill form input fields with realistic, random user data using the right-click context menu! Ideal for developers, testers, and designers.
 
