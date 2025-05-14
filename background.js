@@ -1,22 +1,22 @@
 chrome.runtime.onInstalled.addListener(() => {
   const fields = [
-    // { id: "title", title: "Title" },
+    { id: "title", title: "Title" },
     { id: "fullName", title: "Full Name" },
     { id: "gender", title: "Gender" },
     { id: "firstName", title: "First Name" },
     { id: "email", title: "Email" },
     { id: "phone", title: "Phone" },
     { id: "cell", title: "Cell" },
-    // { id: "lastName", title: "Last Name" },
-    // { id: "streetNumber", title: "Street Number" },
+    { id: "lastName", title: "Last Name" },
+    { id: "streetNumber", title: "Street Number" },
     { id: "streetName", title: "Street Name" },
-    // { id: "fullStreet", title: "Street (Full)" },
+    { id: "fullStreet", title: "Street (Full)" },
     { id: "city", title: "City" },
     { id: "state", title: "State" },
-    // { id: "country", title: "Country" },
+    { id: "country", title: "Country" },
     { id: "postcode", title: "Postcode" },
-    // { id: "fullAddress", title: "Address (Full)" },
-    // { id: "nationality", title: "Nationality" }
+    { id: "fullAddress", title: "Address (Full)" },
+    { id: "nationality", title: "Nationality" }
   ];
 
   chrome.contextMenus.create({
